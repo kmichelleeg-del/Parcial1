@@ -14,8 +14,6 @@ También revisé la clase Cocina y noté que originalmente había colocado un ar
 
 En Pizza también tuve que modificar la forma en la que estaba manejando los toppings. Al principio había colocado solamente una variable de tipo Toppings, lo cual me permitía guardar un solo ingrediente. Como necesitaba poder manejar varios toppings para una misma pizza, cambié esta parte para poder almacenar una colección de ellos.
 
-Además, agregué la sobrecarga de métodos para añadir ingredientes. Para hacerlo, utilicé métodos con el mismo nombre pero con diferentes parámetros. De esta manera pude aplicar la sobrecarga y permitir distintas formas de agregar ingredientes a una pizza.
-
 Por último, hice un Main para probar mi código. En este creé una orden y objetos como Cliente y Chef para comprobar que las clases pudieran relacionarse entre sí. Hacer estas pruebas me ayudó a encontrar errores que no había notado cuando solamente estaba trabajando con el UML.
 
 En general, al pasar mi UML a Java pude darme cuenta de que el diagrama me servía como una guía para organizar las clases y sus relaciones, pero que al momento de llevarlo al código aparecieron algunos detalles que necesitaban ser corregidos. Fui realizando los cambios conforme encontraba los errores al compilar, hasta lograr que la estructura del programa funcionara correctamente y cumpliera mejor con lo solicitado.
