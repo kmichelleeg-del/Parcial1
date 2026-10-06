@@ -1,7 +1,7 @@
 public class JackPizzaChef {
 
-    Horario horario;
-    Ubicacion ubicacion;
+    HoraJack horario;
+    UBI ubicacion;
 
     public void abrir() {
 

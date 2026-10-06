@@ -1,15 +1,15 @@
 public class Pizza {
 
-    private masa base;
+    private Masa base;
     private TipoSalsa salsa;
-    private Toppings topping;
+    private Toppings[] toppings;
     private int numPizza;
 
-    public Pizza(masa base, TipoSalsa salsa) {
+    public Pizza(Masa base, TipoSalsa salsa) {
 
     }
 
-    public Pizza(masa base, TipoSalsa salsa, Toppings topping) {
+    public Pizza(Masa base, TipoSalsa salsa, Toppings topping) {
 
     }
 }
